@@ -1,3 +1,16 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
 .main-content {
     background-color: #2F303A;
     position: absolute;
@@ -5,6 +18,17 @@
     height: 600px;
     left: 0px;
     top: 80px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.business {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    color: #FFFFFF;
 }
 .button {
     position: absolute;
@@ -14,3 +38,332 @@
     top: 430px;
     background-color: #2196F3;
 } 
+.nav {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.web {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+}
+.studio {
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+.studios 
+
+
+.portfolio {
+    position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.contacts {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
+}
+.mail {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+}
+.tel {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px; 
+}
+.logo-link .logo-header {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    letter-spacing: 0.03em;
+}
+.logo-link {
+    color: #2196F3;
+}
+.logo-header {
+    color: #000000;
+}
+.Peculiarities-1 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+}
+.Peculiarities-2 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;
+}
+.Peculiarities-3 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;
+}
+.Peculiarities-4 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;
+}
+.Peculiarities--1 {
+    position: absolute;
+    width: 270px;
+    height: 72px;
+    left: 215px;
+    top: 800px;
+    color: #757575;
+}
+.Peculiarities--2 {
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 515px;
+    top: 800px;
+    color: #757575;
+}
+.Peculiarities--3 {
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 815px;
+    top: 800px;
+    color: #757575;
+}
+.Peculiarities--4 {
+    position: absolute;
+    width: 270px;
+    height: 72px;
+    left: 1115px;
+    top: 800px;
+    color: #757575;
+}
+.work {
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 966px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.work-1 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1058px;  
+}
+.work-2 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1058px;
+}
+.work-3 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1058px;
+}
+.Team {
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1540px; 
+}
+.team-1 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 215px;
+top: 1632px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px
+rgba(0, 0, 0, 0.12), 0px 1px 1px
+ rgba(0, 0, 0, 0.14), 0px 2px 1px
+  rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
+.team-2 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 515px;
+top: 1632px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px
+ rgba(0, 0, 0, 0.12), 0px 1px 1px
+  rgba(0, 0, 0, 0.14), 0px 2px 1px
+   rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
+.team-3 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 815px;
+top: 1632px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px
+ rgba(0, 0, 0, 0.12), 0px 1px 1px
+  rgba(0, 0, 0, 0.14), 0px 2px 1px
+   rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
+.team-4 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 1115px;
+top: 1632px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px
+ rgba(0, 0, 0, 0.12), 0px 1px 1px
+  rgba(0, 0, 0, 0.14), 0px 2px 1px
+   rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.Team-1 {
+    position: absolute;
+width: 129px;
+height: 19px;
+left: 286px;
+top: 1922px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.Team-2 {
+    position: absolute;
+width: 104px;
+height: 19px;
+left: 598px;
+top: 1922px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.Team-3 {
+    position: absolute;
+width: 130px;
+height: 19px;
+left: 885px;
+top: 1922px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.Team-4 {
+    position: absolute;
+width: 145px;
+height: 19px;
+left: 1178px;
+top: 1922px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.Profession-1 {
+    position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1951px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.Profession-2 {
+    position: absolute;
+width: 147px;
+height: 19px;
+left: 577px;
+top: 1951px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.Profession-3 {
+    position: absolute;
+width: 76px;
+height: 19px;
+left: 912px;
+top: 1951px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.Profession-4 {
+    position: absolute;
+width: 87px;
+height: 19px;
+left: 1207px;
+top: 1951px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.adress {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2F303A;;
+}

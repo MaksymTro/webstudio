@@ -1,0 +1,16 @@
+.main-content {
+    background-color: #2F303A;
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+.button {
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background-color: #2196F3;
+} 

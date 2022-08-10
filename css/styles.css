@@ -30,7 +30,7 @@ h1 {
     top: 280px;
     color: #FFFFFF;
 }
-.button {
+.button-1 {
     position: absolute;
     width: 216px;
     height: 50px;
@@ -53,21 +53,62 @@ h1 {
     left: 215px;
     top: 24px;
 }
-.studio {
+.studio-1 {
     position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
+width: 45px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
 }
-.studios 
 
-
-.portfolio {
+.portfolio-1 {
     position: absolute;
-    width: 72px;
+width: 72px;
+height: 16px;
+left: 548px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contacts-1 {
+    position: absolute;
+width: 64px;
+height: 16px;
+left: 670px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.mail-1 {
+    position: absolute;
+    width: 135px;
     height: 16px;
-    left: 548px;
+    left: 1078px;
+    top: 32px;
+    color: #2196F3;
+}
+.tel-1 {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
     top: 32px;
     font-family: 'Roboto';
     font-style: normal;
@@ -75,29 +116,9 @@ h1 {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    color: #757575;
     
-    color: #212121;
-}
-.contacts {
-    position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 670px;
-    top: 32px;
-}
-.mail {
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-}
-.tel {
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px; 
+
 }
 .logo-link .logo-header {
     position: absolute;
@@ -206,10 +227,12 @@ h1 {
 }
 .Team {
     position: absolute;
-    width: 264px;
-    height: 42px;
-    left: 668px;
-    top: 1540px; 
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1446px;
+
+background: #F5F4FA;
 }
 .team-1 {
     position: absolute;
@@ -217,13 +240,12 @@ width: 270px;
 height: 260px;
 left: 215px;
 top: 1632px;
-background: #FFFFFF;
-/* material shadow v1 */
-
+background: url(4853.jpg);
+border-radius: 0px;
 box-shadow: 0px 1px 3px
-rgba(0, 0, 0, 0.12), 0px 1px 1px
- rgba(0, 0, 0, 0.14), 0px 2px 1px
-  rgba(0, 0, 0, 0.2);
+ rgba(0, 0, 0, 0.12), 0px 1px 1px
+  rgba(0, 0, 0, 0.14), 0px 2px 1px
+   rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
 }
@@ -234,8 +256,6 @@ height: 260px;
 left: 515px;
 top: 1632px;
 background: #FFFFFF;
-/* material shadow v1 */
-
 box-shadow: 0px 1px 3px
  rgba(0, 0, 0, 0.12), 0px 1px 1px
   rgba(0, 0, 0, 0.14), 0px 2px 1px
@@ -250,8 +270,6 @@ height: 260px;
 left: 815px;
 top: 1632px;
 background: #FFFFFF;
-/* material shadow v1 */
-
 box-shadow: 0px 1px 3px
  rgba(0, 0, 0, 0.12), 0px 1px 1px
   rgba(0, 0, 0, 0.14), 0px 2px 1px
@@ -266,8 +284,6 @@ height: 260px;
 left: 1115px;
 top: 1632px;
 background: #FFFFFF;
-/* material shadow v1 */
-
 box-shadow: 0px 1px 3px
  rgba(0, 0, 0, 0.12), 0px 1px 1px
   rgba(0, 0, 0, 0.14), 0px 2px 1px
@@ -314,7 +330,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.Profession-1 {
+.profession-1 {
     position: absolute;
     width: 130px;
     height: 19px;
@@ -329,7 +345,7 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.Profession-2 {
+.profession-2 {
     position: absolute;
 width: 147px;
 height: 19px;
@@ -339,7 +355,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.Profession-3 {
+.profession-3 {
     position: absolute;
 width: 76px;
 height: 19px;
@@ -349,7 +365,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.Profession-4 {
+.profession-4 {
     position: absolute;
 width: 87px;
 height: 19px;
@@ -359,7 +375,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.adress {
+.adress-1 {
     position: absolute;
     width: 1600px;
     height: 252px;
@@ -367,3 +383,458 @@ color: #757575;
     top: 2094px;
     background: #2F303A;;
 }
+
+
+
+.mail-2 {
+    position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.portfolio-2 {
+    position: absolute;
+width: 72px;
+height: 16px;
+left: 548px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.studio-2 {
+    position: absolute;
+width: 45px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contacts-2 {
+    position: absolute;
+width: 64px;
+height: 16px;
+left: 670px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.tel-2 {
+    position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.button-2 {
+    position: absolute;
+width: 73px;
+height: 38px;
+left: 512px;
+top: 174px;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+.button-3 {
+    position: absolute;
+width: 125px;
+height: 38px;
+left: 593px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.button-4 {
+    position: absolute;
+width: 112px;
+height: 38px;
+left: 726px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.button-5 {
+    position: absolute;
+width: 103px;
+height: 38px;
+left: 846px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.button-6 {
+    position: absolute;
+width: 130px;
+height: 38px;
+left: 957px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.portfolio-work-1 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 262px;
+    background: url(portfolio1.jpg);
+}
+.Work-1 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 239px;
+top: 576px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-1 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 239px;
+top: 616px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-2 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 262px;
+background: url(portfolio2.jpg);
+}
+.Work-2 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 639px;
+top: 576px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-2 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 639px;
+top: 616px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-3 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 262px;
+background: url(portfolio-1.jpg);
+}
+.Work-3 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 1039px;
+top: 576px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-3 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 1039px;
+top: 616px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-4 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 696px;
+background: url(portfolio-2.jpg);
+}
+.Work-4 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 239px;
+top: 1010px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-4 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 239px;
+top: 1050px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-5 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 696px;
+background: url(portfolio5.jpg);
+}
+.Work-5 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 639px;
+top: 1010px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-5 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 639px;
+top: 1050px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-6 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 696px;
+background: url(111.jpg);
+}
+.Work-6 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 1039px;
+top: 1010px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-6 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 1039px;
+top: 1050px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-7 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1130px;
+background: url(portfolio7.jpg);
+}
+.Work-7 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 239px;
+top: 1444px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-7 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 239px;
+top: 1484px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-8 {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1130px;
+background: url(portfolio8.jpg);
+}
+.Work-8 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 639px;
+top: 1444px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-8 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 639px;
+top: 1484px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-work-9 {
+   position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1130px;
+background: url(2910404.jpg);
+}
+.Work-9 {
+   position: absolute;
+width: 322px;
+height: 36px;
+left: 1039px;
+top: 1444px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.Name-9 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 1039px;
+top: 1484px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.adress-2 {
+    position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+background: #2F303A;
+}
+
+

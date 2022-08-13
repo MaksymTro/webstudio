@@ -1,5 +1,9 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-size: 400;
+    background-color: #F5F5F5;
+    color: #212121;
+    font-family: 'Roboto', sans-serif
+     ;
 }
 footer {
     font-family: 'Roboto', sans-serif;
@@ -10,6 +14,34 @@ header {
 h1 {
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* 
+colors
+#212121
+#FFFFFF
+#757575
+#2196F3
+#EEEEEE
+#000000
+#F5F4FA
+#FFFFFF
+60 %
+#2F303A
+#ECECEC */
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .main-content {
     background-color: #2F303A;
@@ -23,17 +55,34 @@ h1 {
     text-transform: uppercase;
 }
 .business {
+    font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+
 }
 .button-1 {
 } 
-.web {
+
+.web-link {
+    text-decoration: none;
+    font-family: 'Roboto' sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 0.83px;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+.list {
+    list-style: none;
+}
 .studio-1 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
@@ -42,20 +91,23 @@ color: #2196F3;
 }
 
 .portfolio-1 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #212121;
+color: #2196F3;
 }
 .contacts-1 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #212121;
+color: #2196F3;
 }
 .mail-1 {
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
@@ -63,11 +115,12 @@ color: #212121;
     color: #2196F3;
 }
 .tel-1 {
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: #2196F3;
 }
 .logo-link .logo-header {
     position: absolute;
@@ -232,6 +285,7 @@ color: #757575;
 
 
 .mail-2 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
@@ -239,6 +293,7 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 .portfolio-2 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
@@ -246,25 +301,28 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 .studio-2 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #212121;
+color: #2196F3;
 }
 .contacts-2 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #212121;
+color: #2196F3;
 }
 .tel-2 {
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #757575;
+color: #2196F3;
 }
 .button-2 {
 }
@@ -427,7 +485,7 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 1628px;
-background: #2F303A;
+background: #2196F3;
 }
 
 

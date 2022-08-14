@@ -1,14 +1,11 @@
 body {
-    font-size: 400;
-    background-color: #F5F5F5;
+    letter-spacing: 0.03;
+    font-size: 14px;
+    background-color: #FFFFFF;
     color: #212121;
-    font-family: 'Roboto', sans-serif
-     ;
-}
-footer {
     font-family: 'Roboto', sans-serif;
 }
-header {
+footer {
     font-family: 'Roboto', sans-serif;
 }
 h1 {
@@ -16,19 +13,47 @@ h1 {
 }
 
 
-/* 
-colors
-#212121
-#FFFFFF
-#757575
-#2196F3
-#EEEEEE
-#000000
-#F5F4FA
-#FFFFFF
-60 %
-#2F303A
-#ECECEC */
+/* Text-color */
+
+:root {
+    text-color-1 #212121
+}
+:root {
+    text-color-2 #FFFFFF
+}
+:root {
+    text-color-3 #2196F3
+}
+:root {
+    text-color-4 #000000
+}
+:root {
+    text-color-5 #757575
+}
+
+
+/*color*/
+
+:root {
+    color-4 #EEEEEE
+}
+:root {
+    color-6 #ECECEC
+}
+
+
+/*BackGround-color*/
+
+:root {
+    background-color-1 #F5F4FA
+}
+
+:root {
+    background-color-2 #2F303A
+}
+:root {
+    background-color-1 #FFFFFF
+}
 
 
 
@@ -43,6 +68,9 @@ colors
     overflow: hidden;
   }
 
+  .style-1 {
+    background-color: #2F303A;
+  }
 .main-content {
     background-color: #2F303A;
     position: absolute;
@@ -55,26 +83,37 @@ colors
     text-transform: uppercase;
 }
 .business {
-    font-family: 'Roboto' sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 
+
 }
 .button-1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
 } 
 
 .web-link {
     text-decoration: none;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.83px;
+    line-height: 0.83;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -85,42 +124,42 @@ color: #FFFFFF;
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121
 }
 
 .portfolio-1 {
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121
 }
 .contacts-1 {
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121
 }
 .mail-1 {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #757575
 }
 .tel-1 {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #757575
 }
 .logo-link .logo-header {
     position: absolute;
@@ -137,69 +176,77 @@ color: #2196F3;
     color: #000000;
 }
 .Peculiarities-1 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .Peculiarities-2 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .Peculiarities-3 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .Peculiarities-4 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .Peculiarities--1 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .Peculiarities--2 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .Peculiarities--3 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .Peculiarities--4 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .work {
     font-weight: 700;
 font-size: 36px;
-line-height: 1.16px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -213,7 +260,7 @@ color: #212121;
 .Team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -238,7 +285,7 @@ color: #212121;
 .profession-1 {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -288,66 +335,75 @@ color: #757575;
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #757575;
 }
 .portfolio-2 {
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121
 }
 .studio-2 {
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121
 }
 .contacts-2 {
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121
 }
 .tel-2 {
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #757575
 }
 .button-2 {
+    background: #2196F3;
+    border-radius: 4px;
 }
 .button-3 {
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 .button-4 {
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 .button-5 {
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 .button-6 {
-
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 .portfolio-work-1 {
 }
 .Work-1 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-1 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -356,14 +412,14 @@ color: #757575;
 .Work-2 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-2 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -372,14 +428,14 @@ color: #757575;
 .Work-3 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-3 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -388,14 +444,14 @@ color: #757575;
 .Work-4 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-4 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -404,14 +460,14 @@ color: #757575;
 .Work-5 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-5 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -420,14 +476,14 @@ color: #757575;
 .Work-6 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-6 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -436,14 +492,14 @@ color: #757575;
 .Work-7 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-7 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -452,14 +508,14 @@ color: #757575;
 .Work-8 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-8 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -468,14 +524,14 @@ color: #757575;
 .Work-9 {
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .Name-9 {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }

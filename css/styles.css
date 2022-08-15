@@ -6,7 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 footer {
-    font-family: 'Roboto', sans-serif;
+    background: #2F303A;
+
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -120,6 +121,8 @@ background: #2196F3;
 .list {
     list-style: none;
 }
+
+
 .studio-1 {
     text-decoration: none;
 font-weight: 500;
@@ -128,6 +131,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
+.studio-1:hover {
+    color: #2196F3;
+}
+
 
 .portfolio-1 {
     text-decoration: none;
@@ -137,6 +144,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
+.portfolio-1:hover {
+    color: #2196F3;
+}
+
+
 .contacts-1 {
     text-decoration: none;
 font-weight: 500;
@@ -145,6 +157,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
+.contacts-1:hover {
+    color: #2196F3;
+}
+
+
 .mail-1 {
     text-decoration: none;
     font-weight: 500;
@@ -153,6 +170,11 @@ color: #212121
     letter-spacing: 0.02em;
     color: #757575
 }
+.mail-1:hover {
+    color: #2196F3;
+}
+
+
 .tel-1 {
     text-decoration: none;
     font-weight: 500;
@@ -161,7 +183,12 @@ color: #212121
     letter-spacing: 0.02em;
     color: #757575
 }
-.logo-link .logo-header {
+.tel-1:hover {
+    color: #2196F3;
+}
+
+
+.logo-link .footer-logo {
     position: absolute;
     width: 145px;
     height: 31px;
@@ -172,75 +199,19 @@ color: #212121
 .logo-link {
     color: #2196F3;
 }
-.logo-header {
-    color: #000000;
+.footer-logo {
+    color: #FFFFFF;
 }
-.Peculiarities-1 {
-    font-family: 'Raleway', sans-serif;
+.subtitle {
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
-.Peculiarities-2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.Peculiarities-3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.Peculiarities-4 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.Peculiarities--1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+
+.text {
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.Peculiarities--2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.Peculiarities--3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.Peculiarities--4 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 .work {
@@ -257,30 +228,24 @@ color: #212121;
 }
 .work-3 {
 }
-.Team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+.Team-work {
+    background: #F5F4FA;
 }
-.team-1 {
-}
-.team-2 {
-}
-.team-3 {
-}
-.team-4 {
 
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
 }
-.Team-1 {
-}
-.Team-2 {
-}
-.Team-3 {
-}
-.Team-4 {
+.job-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #757575;
 }
 .profession-1 {
     font-weight: 400;
@@ -320,15 +285,55 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.adress-1 {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
-    background: #2F303A;;
+
+
+.adress {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.adress:hover {
+    color: #2196F3;
 }
 
+
+
+.studio-2 {
+    text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121
+}
+.studio-2:hover {
+    color: #2196F3;
+}
+
+
+.portfolio-2 {
+    text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121
+}
+.portfolio-2:hover {
+    color: #2196F3;
+}
+
+
+.contacts-2 {
+    text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121
+}
+.contacts-2:hover {
+    color: #2196F3;
+}
 
 
 .mail-2 {
@@ -339,30 +344,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.portfolio-2 {
-    text-decoration: none;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121
+.mail-2:hover {
+    color: #2196F3;
 }
-.studio-2 {
-    text-decoration: none;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121
-}
-.contacts-2 {
-    text-decoration: none;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121
-}
+
+
 .tel-2 {
     text-decoration: none;
 font-weight: 500;
@@ -371,177 +357,38 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575
 }
-.button-2 {
-    background: #2196F3;
-    border-radius: 4px;
+.tel-2:hover{
+    color: #2196F3;
 }
-.button-3 {
+
+.btn-portfolio {
     background: #F5F4FA;
     border-radius: 4px;
 }
-.button-4 {
-    background: #F5F4FA;
-    border-radius: 4px;
+.btn-portfolio:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
-.button-5 {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-.button-6 {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-.portfolio-work-1 {
-}
-.Work-1 {
+
+
+.portfolio-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.Name-1 {
+.portfolio-name {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.portfolio-work-2 {
-}
-.Work-2 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-2 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-3 {
-}
-.Work-3 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-3 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-4 {
-}
-.Work-4 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-4 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-5 {
-}
-.Work-5 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-5 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-6 {
-}
-.Work-6 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-6 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-7 {
-}
-.Work-7 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-7 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-8 {
-}
-.Work-8 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-8 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-9 {
-}
-.Work-9 {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.Name-9 {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
-}
+
 .adress-2 {
-    position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px;
-background: #2196F3;
+color: #FFFFFF;
+text-decoration: none;
 }
 
 

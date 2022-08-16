@@ -247,7 +247,9 @@ color: #212121;
 .Team-work {
     background: #F5F4FA;
 }
-.pic-team-1 {
+
+.card-team-1 {
+
 }
 
 .team-name {
@@ -396,7 +398,6 @@ cursor: pointer;
     background-color: #2196F3;
     color: #FFFFFF;
 }
-
 
 .portfolio-title {
 font-weight: 700;

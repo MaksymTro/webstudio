@@ -26,10 +26,14 @@ address {
     font-style: normal;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1200px;
+margin-right: auto;
+margin-left: auto;
 }
+
 
 
 
@@ -154,6 +158,10 @@ color: #FFFFFF
 .nav-list {
     list-style: none;
     display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
 }
 .job-list {
     list-style: none;
@@ -167,8 +175,9 @@ color: #FFFFFF
 
 
 .studio-1 {
-    margin-left: 500px;
-    margin-right: 50px;
+padding-top: 32px;
+padding-bottom: 32px;
+display: inline-block;
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -182,8 +191,7 @@ color: #212121
 
 
 .portfolio-1 {
-    margin-left: 50px;
-    margin-right: 50px;
+
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -197,7 +205,7 @@ color: #212121
 
 
 .contacts-1 {
-    margin-left: 50px;
+
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -213,7 +221,7 @@ color: #212121
 .mail {
     bottom: 32px;
     top: 32px;
-    margin-left: 1100px;
+
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -227,7 +235,7 @@ color: #757575
 
 
 .tel {
-    margin-left: 1100px;
+
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;

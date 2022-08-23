@@ -199,6 +199,8 @@ color: #FFFFFF
     margin-top: 5px;
 }
 .job-list {
+    background-color: var(--background-color-1);
+    padding-bottom: 100px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;

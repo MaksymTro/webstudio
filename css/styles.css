@@ -12,7 +12,10 @@ body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
 }
-
+p {
+    margin: 0;
+    padding: 0;
+}
 h1,h2,h3,h4,h5,h6,p {
 margin: 0;
 }
@@ -24,6 +27,9 @@ img {
 }
 address {
     font-style: normal;
+}
+ul, li {
+    list-style: none;
 }
 .container {
 justify-content: space-between;
@@ -45,42 +51,42 @@ padding-right: 15px;
 /* Text-color */
 
 :root {
-    text-color-1: #212121
+    --text-color-1: #212121
 }
 :root {
-    text-color-2: #FFFFFF
+    --text-color-2: #FFFFFF
 }
 :root {
-    text-color-3: #2196F3
+    --text-color-3: #2196F3
 }
 :root {
-    text-color-4: #000000
+    --text-color-4: #000000
 }
 :root {
-    text-color-5: #757575
+    --text-color-5: #757575
 }
 
 
 /*color*/
 
 :root {
-    color-4: #EEEEEE
+    --color-4: #EEEEEE
 }
 :root {
-    color-6: #ECECEC
+    --color-6: #ECECEC
 }
 
 
 /*BackGround-color*/
 
 :root {
-    background-color-1: #F5F4FA
+    --background-color-1: #F5F4FA
 }
 :root {
-    background-color-2: #2F303A
+    --background-color-2: #2F303A
 }
 :root {
-    background-color-3: #FFFFFF
+    --background-color-3: #FFFFFF
 }
 
 /* Button */
@@ -108,20 +114,20 @@ margin: 0 auto;
   }
   
 
-  .style-1 {
+  .hero {
 background-color: #2F303A;
   }
 .main-content {
-
-
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.business {
+.hero-title {
 width: 700px;
-margin-left: auto;
-margin-right: auto;
+height: 400px;
+margin: 0 auto;
+margin-bottom: 30px;
+
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -130,23 +136,25 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF
-
-
 }
-.button-1 {
 
+.hero-button {
+    padding: 10px 32px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     cursor: pointer;
-    background: #2196F3;
     box-shadow: 0px 4px 4px
      rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--text-color-4)
 } 
+.hero-button:hover, .hero-button:focus {
+    color: #FFFFFF;
+    background-color: var(--text-color-3);
+}
 
 
 .web-link {
@@ -156,7 +164,7 @@ color: #FFFFFF
     font-size: 26px;
     line-height: 0.83;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 .nav-list {
     list-style: none;
@@ -166,15 +174,51 @@ color: #FFFFFF
     padding: 0;
     margin: 0;
 }
-.job-list {
-    list-style: none;
-}
-.work-list {
-    list-style: none;
+.list {
+    
 }
 .sub-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
+.sub-list .item {
+    width: 270px;
+}
+.work-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-list .working {
+    width: 360px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+.job-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+.job-list .jobs {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.portfolio-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-list .portfolio-work {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
 
 
 .studio-1 {
@@ -189,7 +233,7 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .studio-1:hover {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -203,7 +247,7 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .portfolio-1:hover {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -217,7 +261,7 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .contacts-1:hover {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -231,7 +275,7 @@ letter-spacing: 0.02em;
 color: #757575
 }
 .mail:hover {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -245,7 +289,7 @@ letter-spacing: 0.02em;
 color: #757575
 }
 .tel:hover {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -253,7 +297,7 @@ color: #757575
 
 }
 .logo-link {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 .footer-logo {
     color: #FFFFFF;
@@ -262,7 +306,9 @@ color: #757575
     color: #000000;
 }
 .subtitle-1 {
-    
+
+    margin-right: auto;
+    margin-left: auto;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -299,6 +345,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .text-1 {
+    margin-right: auto;
+    margin-left: auto;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -402,6 +450,20 @@ color: #212121;
 }
 
 
+.team-name-1 .team-name-2 .team-name-3 .team-name-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.teams {
+    margin-top: 30px;
+}
+.job-name-1 .job-name-2 .job-name-3 .job-name-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.names {
+    margin-top: 10px;
+}
 .team-name-1 {
 
     font-family: 'Roboto';
@@ -491,32 +553,7 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.profession-1 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.profession-2 {
 
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.profession-3 {
-
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.profession-4 {
-
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
-}
 .list {
     margin-top: 125px;
 }
@@ -525,34 +562,46 @@ color: #757575;
 
 background: #2F303A;
 }
-.mail-1 {
-    text-decoration: none;
-color: #757575;
+.navig {
+
 }
-.tel-1 {
+
+
+.mail-1 {
+
     text-decoration: none;
 color: #757575;
 }
 .mail-1:hover,.mail-1:focus {
-    color: #2196F3;
-}
-.tel-1:hover,.tel-1:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
-.adress {
+
+.tel-1 {
+    text-decoration: none;
+color: #757575;
+}
+.tel-1:hover,.tel-1:focus {
+    color: var(--text-color-3)
+}
+
+
+.adress-1 {
+
     color: #FFFFFF;
     text-decoration: none;
 }
-.adress:hover, .adress:focus {
-    color: #2196F3;
+.adress-1:hover, .adress:focus {
+    color: var(--text-color-3)
 }
 
-
+/*======PORTFOLIO======*/
 
 .studio-2 {
 
-    text-decoration: none;
+padding-top: 20px;
+padding-bottom: 20px;
+text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -560,7 +609,7 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .studio-2:hover, .studio-2:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -574,7 +623,7 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .portfolio-2:hover, .portfolio-2:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -588,12 +637,11 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .contacts-2:hover, .contacts-2:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
 .mail-2 {
-
     text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -602,7 +650,7 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 .mail-2:hover, .mail-2:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 
@@ -616,77 +664,42 @@ letter-spacing: 0.02em;
 color: #757575
 }
 .tel-2:hover, .tel-1:focus{
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
-.btn-portfolio-1 {
- 
+/*=====BTN-LIST=====*/
+.btn-list { 
+    margin-top: 50px;
+column-gap: 8px;
+margin-bottom: 50px;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-port {
+    background-color: var(--background-color-3);
+    color: var(--text-color-4);
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+
+.btn-portfolio {
     background: #F5F4FA;
     border-radius: 4px;
 cursor: pointer;
 
 }
-.btn-portfolio-1:hover, .btn-portfolio-1:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.btn-portfolio-2 {
-
-background: #F5F4FA;
-border-radius: 4px;
-cursor: pointer;
-}
-.btn-portfolio-2:hover, .btn-portfolio-2:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow:
-     0px 3px 1px rgba(0, 0, 0, 0.1),
+.btn-portfolio:hover, .btn-portfolio:focus {
+    box-shadow: 
+    0px 3px 1px rgba(0, 0, 0, 0.1),
      0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--text-color-2);
+    background-color: var(--text-color-3)
 }
-.btn-portfolio-3 {
 
-background: #F5F4FA;
-border-radius: 4px;
-cursor: pointer;
-}
-.btn-portfolio-3:hover, .btn-portfolio-3:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow:
-     0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.btn-portfolio-4 {
-
-background: #F5F4FA;
-border-radius: 4px;
-cursor: pointer;
-}
-.btn-portfolio-4:hover, .btn-portfolio-4:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow:
-     0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.btn-portfolio-5 {
-
-    background: #F5F4FA;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.btn-portfolio-5:hover, .btn-portfolio-5:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow:
-     0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-}
 
 
 .portfolio-work-1 {
@@ -759,10 +772,10 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .portfolio-work-4 {
-
+margin-left: 14px;
 }
 .portfolio-title-4 {
-
+    margin-left: 14px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -772,7 +785,7 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .portfolio-name-4 {
-
+    margin-left: 14px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -864,7 +877,7 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .portfolio-name-8 {
-
+margin-bottom: 40px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -898,9 +911,12 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-.adress-2 {
+.adress-1 {
 color: #FFFFFF;
 text-decoration: none;
+}
+.adress-1:hover, .adress-1:focus {
+    color: var(--text-color-3);
 }
 .mail-3 {
     font-family: 'Roboto';
@@ -914,7 +930,7 @@ cursor: pointer;
 color: #757575;
 }
 .mail-3:hover, .mail-3:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 .tel-3 {
     font-family: 'Roboto';
@@ -928,7 +944,7 @@ cursor: pointer;
 color: #757575;
 }
 .tel-3:hover, .tel-3:focus {
-    color: #2196F3;
+    color: var(--text-color-3)
 }
 
 

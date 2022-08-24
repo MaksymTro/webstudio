@@ -28,12 +28,12 @@ img {
 address {
     font-style: normal;
 }
-ul, li {
+ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .container {
-justify-content: space-between;
-align-items: center;
 width: 1200px;
 margin-right: auto;
 margin-left: auto;
@@ -42,6 +42,7 @@ padding-right: 15px;
 }
 .header-box {
     display: flex;
+    align-items: center;
 }
 
 
@@ -68,12 +69,14 @@ padding-right: 15px;
 
 
 /*color*/
-
 :root {
-    --color-4: #EEEEEE
+    --color-1: #2196F3;
 }
 :root {
-    --color-6: #ECECEC
+    --color-2: #EEEEEE
+}
+:root {
+    --color-3: #ECECEC
 }
 
 
@@ -116,6 +119,8 @@ margin: 0 auto;
 
   .hero {
 background-color: #2F303A;
+text-align: center;
+padding: 200px 0;
   }
 .main-content {
     text-align: center;
@@ -124,7 +129,6 @@ background-color: #2F303A;
 }
 .hero-title {
 width: 700px;
-height: 400px;
 margin: 0 auto;
 margin-bottom: 30px;
 
@@ -149,7 +153,9 @@ color: #FFFFFF
     box-shadow: 0px 4px 4px
      rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    background-color: var(--color-1);
     color: var(--text-color-4)
+
 } 
 .hero-button:hover, .hero-button:focus {
     color: #FFFFFF;
@@ -171,32 +177,29 @@ color: #FFFFFF
     display: flex;
     align-items: center;
     gap: 50px;
-    padding: 0;
-    margin: 0;
+    margin-left: auto;
 }
-.list {
-    
+.navigation {
+    margin-left: 95px;
+}
+.adress-list {
+
 }
 .sub-list {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-top: 50px;
+column-gap: 30px;
+padding-top: 100px;
 }
 .sub-list .item {
-    width: 270px;
 }
 .work-list {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    gap: 30px;
 }
 .work-list .working {
-    width: 360px;
-    margin-right: 25px;
-    margin-top: 5px;
+
 }
 .job-list {
     background-color: var(--background-color-1);
@@ -207,8 +210,8 @@ color: #FFFFFF
     margin-bottom: 150px;
 }
 .job-list .jobs {
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 5px;
+margin-right: 10px;
 }
 .portfolio-list {
     list-style: none;
@@ -234,10 +237,12 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
-.studio-1:hover {
+.studio-1:hover .studio-1:focus {
     color: var(--text-color-3)
 }
-
+.current {
+    color: var(--text-color-3);
+}
 
 .portfolio-1 {
 
@@ -248,24 +253,27 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
-.portfolio-1:hover {
+.portfolio-1:hover .portfolio-1:focus {
     color: var(--text-color-3)
 }
-
+.current {
+    color: var(--text-color-3);
+}
 
 .contacts-1 {
-
-text-decoration: none;
+    text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
-.contacts-1:hover {
+.contacts-1:hover .contacts-1:focus {
     color: var(--text-color-3)
 }
-
+.current {
+    color: var(--text-color-3);
+}
 
 .mail {
 
@@ -276,7 +284,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575
 }
-.mail:hover {
+.mail:hover .mail:focus{
     color: var(--text-color-3)
 }
 
@@ -290,7 +298,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575
 }
-.tel:hover {
+.tel:hover .tel:focus{
     color: var(--text-color-3)
 }
 
@@ -307,45 +315,13 @@ color: #757575
 .logo {
     color: #000000;
 }
-.subtitle-1 {
-
-    margin-right: auto;
-    margin-left: auto;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+.subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.subtitle-2 {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-.subtitle-3 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-.subtitle-4 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+
 .text-1 {
     margin-right: auto;
     margin-left: auto;
@@ -466,6 +442,17 @@ color: #212121;
 .names {
     margin-top: 10px;
 }
+
+.teams .names {
+    
+    background-color: #FFFFFF;
+}
+
+.Team {
+    background: #F5F4FA;
+
+}
+
 .team-name-1 {
 
     font-family: 'Roboto';
@@ -570,7 +557,6 @@ background: #2F303A;
 
 
 .mail-1 {
-
     text-decoration: none;
 color: #757575;
 }

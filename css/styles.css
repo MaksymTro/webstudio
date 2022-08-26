@@ -116,9 +116,17 @@ margin: 0 auto;
     overflow: hidden;
   }
   
+.hero-background {
+    background-color: #c4c4c4 ;
+background-image: url(../images/hero-background.jpg);
+background-repeat: no-repeat;
+background-size: 1600px;
+background-position: center;
+}
+
 
   .hero {
-background-color: #2F303A;
+
 text-align: center;
 padding: 200px 0;
   }
@@ -196,6 +204,9 @@ column-gap: 30px;
 .sub {
     padding: 94px 0;
 }
+.working {
+    padding-bottom: 94px;
+}
 .item {
     margin-bottom: 10px;
 }
@@ -208,10 +219,15 @@ column-gap: 30px;
 
 }
 .job-list {
-    background-color: var(--background-color-1);
     display: flex;
     gap: 30px;
 }
+
+.name {
+    padding: 30px 0 30px;
+}
+
+
 .job-list .jobs {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -323,51 +339,31 @@ color: #757575
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
+.item-svg {
+}
+
+
 .text-1 {
-    margin-right: auto;
-    margin-left: auto;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;  
+    line-height: 1.71;
     color: #757575;
 }
 .text-2 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+line-height: 1.71;
 color: #757575;
 }
 .text-3 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+line-height: 1.71;
 color: #757575;
 }
 .text-4 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+line-height: 1.71;
 color: #757575;
 }
 .section-title-1 {
     margin-bottom: 50px;
-    padding-bottom: 94px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -394,8 +390,6 @@ color: #212121;
 }
 .section-title-2 {
     margin-bottom: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -577,8 +571,8 @@ color: #757575;
 }
 
 .adress-1 {
-
     color: #FFFFFF;
+    line-height: 1.71;
     text-decoration: none;
 }
 .adress-1:hover, .adress:focus {
@@ -588,7 +582,7 @@ color: #757575;
 /*======PORTFOLIO======*/
 
 .all-info {
-    margin-bottom: 1px solid grey;
+    margin-bottom: 1px solid #ECECEC;
 }
 
 .studio-2 {
@@ -684,6 +678,14 @@ margin-bottom: 50px;
 
 
 .btn-portfolio {
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+border: none;
+letter-spacing: 0.03em;
+color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
 cursor: pointer;
@@ -699,16 +701,15 @@ cursor: pointer;
 }
 
 .portfolio {
-    padding: 20px 0;
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
 }
 
 
-.portfolio-work-1 {
+.portfolio-work {
 
 }
-.portfolio-title-1 {
-margin-bottom: 4px;
+.portfolio-title {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -717,193 +718,7 @@ line-height: 36px;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.portfolio-name-1 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-2 {
-
-}
-.portfolio-title-2 {
-    margin-bottom: 4px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.portfolio-name-2 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-3 {
-
-}
-.portfolio-title-3 {
-    margin-bottom: 4px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.portfolio-name-3 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-4 {
-
-}
-.portfolio-title-4 {
-    margin-bottom: 4px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.portfolio-name-4 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-5 {
-
-}
-.portfolio-title-5 {
-    margin-bottom: 4px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.portfolio-name-5 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-6 {
-
-}
-.portfolio-title-6 {
-    margin-bottom: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-.portfolio-name-6 {
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575; 
-}
-.portfolio-work-7 {
-
-}
-.portfolio-title-7 {
-    margin-bottom: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121; 
-}
-.portfolio-name-7 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-8 {
-
-}
-.portfolio-title-8 {
-    margin-bottom: 4px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.portfolio-name-8 {
-margin-bottom: 40px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
-}
-.portfolio-work-9 {
- 
-}
-.portfolio-title-9 {
-    margin-bottom: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.portfolio-name-9 {
-
+.portfolio-name {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;

@@ -207,8 +207,14 @@ column-gap: 30px;
 .working {
     padding-bottom: 94px;
 }
+
+.item-svg {
+    border-radius: 4px;
+ background-image: url(../background-svg.svg);
+}
+
+
 .item {
-    margin-bottom: 10px;
 }
 .work-list {
     list-style: none;
@@ -224,7 +230,7 @@ column-gap: 30px;
 }
 
 .name {
-    padding: 30px 0 30px;
+    padding: 30px 0;
 }
 
 
@@ -264,7 +270,6 @@ color: #212121
 }
 
 .portfolio-1 {
-
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -280,7 +285,7 @@ color: #212121
 }
 
 .contacts-1 {
-    text-decoration: none;
+text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -288,14 +293,10 @@ letter-spacing: 0.02em;
 color: #212121
 }
 .contacts-1:hover .contacts-1:focus {
-    color: var(--text-color-3)
-}
-.current {
     color: var(--text-color-3);
 }
 
 .mail {
-
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -309,7 +310,6 @@ color: #757575
 
 
 .tel {
-
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -340,9 +340,6 @@ color: #757575
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
-}
-
-.item-svg {
 }
 
 
@@ -582,10 +579,10 @@ color: #757575;
 /*======PORTFOLIO======*/
 
 .all-info {
-    margin-bottom: 1px solid #ECECEC;
+
 }
 
-.studio-2 {
+.studio-1 {
 
 padding-top: 20px;
 padding-bottom: 20px;
@@ -596,7 +593,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
-.studio-2:hover, .studio-2:focus {
+.studio-1:hover, .studio-1:focus {
     color: var(--text-color-3)
 }
 
@@ -617,7 +614,7 @@ color: #212121
     color: var(--text-color-3);
 }
 
-.contacts-2 {
+.contacts-1 {
 
     text-decoration: none;
 font-weight: 500;
@@ -626,7 +623,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121
 }
-.contacts-2:hover, .contacts-2:focus {
+.contacts-1:hover, .contacts-1:focus {
     color: var(--text-color-3)
 }
 

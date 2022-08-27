@@ -208,14 +208,12 @@ column-gap: 30px;
     padding-bottom: 94px;
 }
 
-.item-svg {
-    border-radius: 4px;
- background-image: url(../background-svg.svg);
-}
 
 
 .item {
+    width: 270px;
 }
+
 .work-list {
     list-style: none;
     display: flex;
@@ -335,11 +333,14 @@ color: #757575
     color: #000000;
 }
 
+
+
 .svg-box {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 120px;
+    width: 100%;
     background-color: #F5F4FA;
     margin-bottom: 30px;
 }

@@ -350,6 +350,24 @@ color: #757575
     width: 70px;
     height: 70px;
 }
+.icon-clock {
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+.icon-planning {
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+.icon-space {
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
 
 
 

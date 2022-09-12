@@ -96,6 +96,13 @@ padding-right: 15px;
     --background-color-3: #FFFFFF
 }
 
+
+/* =====icon-color===== */
+:root {
+    --icon-color-1: #AFB1B8
+}
+
+
 /* Button */
 .button-1,.btn-portfolio-1 {
 display: block;
@@ -119,8 +126,11 @@ margin: 0 auto;
     background-color: #c4c4c4 ;
 background-image: url(../images/hero-background.jpg);
 background-repeat: no-repeat;
-background-size: 1600px;
+background-size: cover;
 background-position: center;
+max-width: 1600px;
+height: 600px;
+margin: 0 auto;
 }
 
 
@@ -293,12 +303,14 @@ color: #212121
     color: var(--text-color-3);
 }
 
-.mail {
+.mail-2 {
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+align-items: center;
+display: flex;
 color: #757575
 }
 .mail:hover .mail:focus{
@@ -310,12 +322,14 @@ color: #757575
 }
 
 
-.tel {
+.tel-2 {
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+display: flex;
+align-items: center;
 color: #757575
 }
 .tel:hover .tel:focus{
@@ -584,8 +598,6 @@ color: #757575;
 
 .social-list-icon {
     fill: currentColor;
-    width: 20px;
-    height: 20px;
   }
   .social-list-link {
     display: flex;
@@ -594,7 +606,7 @@ color: #757575;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: var(--primary-link-color);
+    color: var(--icon-color-1);
     background-color: #ffffff;
   }
   .social-list-link:hover,
@@ -607,6 +619,7 @@ color: #757575;
     display: flex;
     justify-content: center;
     column-gap: 10px;
+    margin-top: 16px;
   }
 
 
@@ -622,10 +635,13 @@ color: #757575;
     width: 170px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    color: var(--primary-link-color);
+    color: var(--icon-color-1);
     fill: currentColor;
   }
-
+.client-list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
   .clients-link:hover,
   .clients-link:focus {
@@ -874,6 +890,14 @@ color: #757575;
 .tel-3:hover, .tel-3:focus {
     color: var(--text-color-3)
 }
+
+
+
+.info .container {
+    display: flex;
+    align-items: baseline;
+}
+
 
 .join-box {
     display: flex;

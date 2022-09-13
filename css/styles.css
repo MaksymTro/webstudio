@@ -33,6 +33,10 @@ ul {
     padding: 0;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: currentColor;
+}
 .container {
 width: 1200px;
 margin-right: auto;
@@ -124,7 +128,7 @@ margin: 0 auto;
   
 .hero-background {
     background-color: #c4c4c4 ;
-background-image: url(../images/hero-background.jpg);
+background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url(../images/hero-background.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -623,6 +627,11 @@ color: #757575;
   }
 
 
+
+
+  .clients {
+    padding: 94px 0;
+  }
   .client-box {
     display: flex;
     column-gap: 30px;
@@ -639,8 +648,7 @@ color: #757575;
     fill: currentColor;
   }
 .client-list {
-    padding-top: 94px;
-    padding-bottom: 94px;
+
 }
 
   .clients-link:hover,
@@ -832,11 +840,11 @@ cursor: pointer;
 }
 
 
-.portfolio-work {
+.portfolio-border {
 display: block;
 }
-.portfolio-work:hover .portfolio-work:focus {
-    color: box-shadow 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-border:hover , .portfolio-border:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-title {

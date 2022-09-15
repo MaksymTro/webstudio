@@ -86,7 +86,9 @@ padding-right: 15px;
 :root {
     --color-3: #ECECEC
 }
-
+:root {
+    --color-4: #FFFFFF
+}
 
 /*BackGround-color*/
 
@@ -184,6 +186,36 @@ color: #FFFFFF
     background-color: var(--text-color-3);
 }
 
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 580px;
+    background-color: var(--color-4);
+}
+.modal-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #303030;
+    padding: 0;
+}
+
 
 .web-link {
     text-decoration: none;
@@ -230,6 +262,24 @@ column-gap: 30px;
     display: flex;
     gap: 30px;
 }
+
+.work-title {
+    font-family: 'Roboto';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 16px;
+    padding: 27px 95px;
+    color: var(--text-color-2);
+    line-height: 16px;
+}
+.work {
+    position: relative;
+}
+
+
+
 .work-list .working {
 
 }
@@ -849,8 +899,7 @@ display: block;
     position: relative;
     overflow: hidden;
 }
-.portfolio-working:hover .overlay
-.portfolio-working:focus .overlay {
+.portfolio-border:hover .overlay {
     transform: translateY(0%);
 }
 

@@ -849,7 +849,10 @@ display: block;
     position: relative;
     overflow: hidden;
 }
-
+.portfolio-working:hover .overlay
+.portfolio-working:focus .overlay {
+    transform: translateY(0%);
+}
 
 .portfolio-title {
     margin-bottom: 4px;
@@ -883,7 +886,7 @@ color: #757575;
     padding: 63px 24px;
     line-height: 28px;
     overflow: auto;
-    transform: translateY(295px);
+    transform: translateY(100%);
 }
 
 

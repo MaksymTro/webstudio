@@ -60,52 +60,56 @@ padding-right: 15px;
 /* Text-color */
 
 :root {
-    --text-color-1: #212121
+    --text-color-1: #212121;
 }
 :root {
-    --text-color-2: #FFFFFF
+    --text-color-2: #FFFFFF;
 }
 :root {
-    --text-color-3: #2196F3
+    --text-color-3: #2196F3;
 }
 :root {
-    --text-color-4: #000000
+    --text-color-4: #000000;
 }
 :root {
-    --text-color-5: #757575
+    --text-color-5: #757575;
 }
 
 
 /*color*/
 :root {
+    --color-5: #188CE8;
+}
+
+:root {
     --color-1: #2196F3;
 }
 :root {
-    --color-2: #EEEEEE
+    --color-2: #EEEEEE;
 }
 :root {
-    --color-3: #ECECEC
+    --color-3: #ECECEC;
 }
 :root {
-    --color-4: #FFFFFF
+    --color-4: #FFFFFF;
 }
 
 /*BackGround-color*/
 
 :root {
-    --background-color-1: #F5F4FA
+    --background-color-1: #F5F4FA;
 }
 :root {
-    --background-color-2: #2F303A
+    --background-color-2: #2F303A;
 }
 :root {
-    --background-color-3: #FFFFFF
+    --background-color-3: #FFFFFF;
 }
 
 
 /* =====icon-color===== */
 :root {
-    --icon-color-1: #AFB1B8
+    --icon-color-1: #AFB1B8;
 }
 
 
@@ -236,11 +240,16 @@ left: 12px;
 transform: translateY(-50%);
 width: 18px;
 height: 18px;
+fill: currentColor;
 }
 .modal-form-input:focus + .modal-form-input-icon {
     background-color: var(--color-1);
 }
-
+.modal-form-check-field {
+    left: 16px;
+    display: flex;
+    color: var(--text-color-5);
+}
 .modal-form-input {
     width: 100%;
     height: 40px;
@@ -248,7 +257,7 @@ height: 18px;
 border-radius: 4px;
 padding-left: 42px;
 }
-.modal-form-input:hover, .modal-form-input:focus {
+.modal-form-input:focus {
     outline: none;
     border-color: var(--color-1);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -260,12 +269,14 @@ padding-left: 42px;
     margin-bottom: 4px;
 }
 .modal-form-message {
-    position: absolute;
+
+    padding-top: 12px;
+    padding-left: 16px;
 width: 448px;
 height: 120px;
 resize: none;
 }
-.modal-form-message:hover, .modal-form-message:focus {
+.modal-form-message:focus {
     outline: none;
     border-color: var(--color-1);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -300,7 +311,26 @@ resize: none;
 .checkbox-title {
     color: var(--color-1);
 }
+.modal-form-subbmit {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 120px;
+width: 200px;
+height: 50px;
+color: var(--color-4);
+background-color: var(--color-1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border: none;
+}
+.modal-form-subbmit:hover, .modal-form-subbmit:focus {
+    background-color: var(--color-5);
 
+}
+.modal-form-check {
+    
+}
 /* =====/BACKDROP,MODAL===== */
 .web-link {
     text-decoration: none;

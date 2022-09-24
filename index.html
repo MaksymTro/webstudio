@@ -386,17 +386,19 @@
                         </li>
                       </ul>
                     </div>
+
                     <div class="mailing-list">
                       <p class="mailing-list-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
-                      <label>
-                        <input type="text" class="mailing-list-form" placeholder="E-mail" pattern="[a-z][@]" name="user_mailing">
-                        <button type="submit" class="mailing-list-button mailing-list-button-title">Підписатися 
-                          <svg class="icon-send-mailing" width="24px" height="24px">
-                          <use href="./images/symbol-defs.svg#icon-send"></use>
-                      </svg>
-                    </button>
+                      <form>
+                        <label>
+                        <input type="text" class="mailing-list-form" required placeholder="E-mail" pattern="[a-z][@]" name="user_mailing">
                   </label>
-                      
+                  <button type="submit" class="mailing-list-button mailing-list-button-title">Підписатися 
+                    <svg class="icon-send-mailing" width="24px" height="24px">
+                    <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
                     </div>
             </div>
         </footer>
@@ -408,9 +410,9 @@
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-          <b class="modal-form-title">
+          <p class="modal-form-title">
             Залиште свої дані, ми вам передзвонимо
-          </b>
+          </p>
           <form class="modal-form">
             <label class="modal-form-field">
               <span class="modal-form-field-desc">Ім'я*</span>
@@ -442,7 +444,7 @@
               </div>
             </label>
 
-            <label class="modal-form-field">
+            <label class="modal-form-field-commentar">
               <span class="modal-form-field-desc">Коментар</span>
               <textarea name="user_message" class="modal-form-message" placeholder="Введіть текст"></textarea>
             </label>

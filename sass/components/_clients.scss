@@ -1,0 +1,37 @@
+.clients {
+    padding: 94px 0;
+  }
+  .client-box {
+    display: flex;
+    column-gap: 30px;
+  }
+  .clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    width: 170px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: var(--icon-color-1);
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+  .clients-link:hover,
+  .clients-link:focus {
+    border: 1px solid var(--color-1);
+    color: var(--color-1);
+  }
+
+
+  .clients-title {
+    margin-bottom: 50px;
+    color: var(--text-color-1);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em; 
+  }

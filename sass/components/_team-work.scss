@@ -1,0 +1,182 @@
+.section-title-2 {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+
+.pic-team-1 {
+    background: url(4853);
+    border-radius: 0px;
+}
+.pic-team-2 {
+ 
+    background: url(5844);
+    border-radius: 0px;
+}
+.pic-team-3 {
+  
+    background: url(16166);
+    border-radius: 0px;
+}
+.pic-team-4 {
+  
+    background: url(2968);
+    border-radius: 0px;
+}
+
+
+.team-name-1 .team-name-2 .team-name-3 .team-name-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-name-1 .job-name-2 .job-name-3 .job-name-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.names {
+    margin-top: 10px;
+}
+
+.teams .names {
+    
+    background-color: #FFFFFF;
+}
+
+.Team {
+    background: #F5F4FA;
+    padding: 94px 0;
+}
+
+.team-name-1 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-name-2 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-name-3 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-name-4 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.job-name-1 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.job-name-2 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.job-name-3 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.job-name-4 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.job-list {
+    display: flex;
+    gap: 30px;
+}.name {
+    padding: 30px 0;
+}
+
+
+.job-list .jobs {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.social-list-icon {
+    fill: currentColor;
+  }
+  .social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icon-color-1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-list-link:hover,
+  .social-list-link:focus {
+    background-color: var(--color-1);
+    color: var(--text-color-2);
+  }
+  
+  .social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 16px;
+  }

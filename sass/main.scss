@@ -1,0 +1,20 @@
+@import "./utils/variablets";
+@import "./utils/vissualy-hidden";
+
+@import "./base/base";
+@import "./base/container";
+@import "./base/box";
+
+@import "./components/btn";
+@import "./components/hero";
+@import "./components/main-content";
+@import "./components/backdrop";
+@import "./components/sub-list";
+@import "./components/work-list";
+@import "./components/team-work";
+@import "./components/clients";
+@import "./components/portfolio";
+
+
+@import "./layout/hero-nav";
+@import "./layout/footer-nav";

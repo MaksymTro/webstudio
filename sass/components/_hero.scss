@@ -4,10 +4,16 @@
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
- max-width: 1600px;
+ width: 1600px;
  margin: 0 auto;
  }
-
+ @media screen and (min-device-pixel-ratio: 2) and (min-widht: 480px),
+ screen and (min-resolution: 192dpi) and (min-widht: 480px),
+ screen and (min-resolution: 2dppx) and (min-widht: 480px) {
+   .hero-background {
+     background-image: url('../images/mobile-hero@2x.jpg');
+   }
+ }
 
 
 @media screen and (min-widht: 760px) {
@@ -24,7 +30,7 @@ screen and (min-resolution: 2dppx) and (min-widht: 760px) {
 }
 
 
-@media screen and (min-widht: 760px) {
+@media screen and (min-widht: 1200px) {
     .hero-background { 
         background-image: url('../images/desktop-hero.jpg');
     }

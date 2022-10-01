@@ -11,58 +11,54 @@
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
       <!--<link rel="stylesheet" href="./css/styles.css">-->
     <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./sass/layout/_hero-nav.scss">
     <title>WebStudio</title>
 </head>
 <body>
     <!--Info-->
     <header class="all-info">
-        <div class="container header-box">
-            <a class="web-link"
-            class="logo link"
-             href="/index.html">Web<span class="logo">Studio</span></a>
-           <nav class="navigation">
-               <ul class="nav-list">
-                   <li>
-                       <a href="./index.html" class="hero-nav current">Студія</a> 
-                   </li>
-                   <li>
-                       <a href="./portfolio.html" class="hero-nav">Портфоліо</a> 
-                   </li>
-                   <li>
-                       <a href="#" class="hero-nav">Контакти</a>
-                   </li>
-               </ul>
-           </nav>
-               <ul class="nav-list">
-                   <li>
-                       <a href="mailto:info@devstudio.com" class="hero-nav-1">
-                       <svg class="icon-mail contact-icon" width="16" height="12">
-                        <use href="./images/symbol-defs.svg#icon-mail"></use>
-                       </svg>
-                       info@devstudio.com</a>
-                   </li>
-                   <li>
-                       <a href="tel:+38096111111" class="hero-nav-1">
-                        <svg class="icon-tel contact-icon" width="12" height="16">
-                            <use href="./images/symbol-defs.svg#icon-tel"></use>
-                        </svg>
-                        +38 096 11 111 11</a>
-                   </li>
-               </ul>
-        </div>
-    </header>
-   
+      <div class="container header-box">
+                      <a class="web-link" class="logo link" href="/index.html">Web<span class="logo">Studio</span></a>
+                      <nav class="navigation">
+                          <ul class="nav-list">
+                              <li>
+                                  <a href="./index.html" class="hero-nav current">Студія</a> 
+                              </li>
+                              <li>
+                                  <a href="./portfolio.html" class="hero-nav">Портфоліо</a> 
+                              </li>
+                              <li>
+                                  <a href="" class="hero-nav">Контакти</a>
+                              </li>
+                          </ul>
+                      </nav>
+                          <ul class="nav-list">
+                              <li>
+                                  <a href="mailto:info@devstudio.com" class="hero-nav-1">
+                                      <svg class="icon-mail contact-icon" width="16" height="12">
+                                          <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                         </svg>
+                                         info@devstudio.com</a>
+                              </li>
+                              <li>
+                                  <a href="tel:+38096111111" class="hero-nav-1">
+                                      <svg class="icon-tel contact-icon" width="12" height="16">
+                                          <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                      </svg>
+                                      +38 096 11 111 11</a>
+                              </li>
+                          </ul>
+                  </div>
+              </header>
 
     <!--About-->
-    <!-- <main>
+    <main>
         <section class="hero hero-background">
             <div class="container">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="hero-button" type="button" data-modal-open >Замовити послугу</button>
             </div>
         </section> -->
-       <!-- <section class="item-svg">
+       <section class="item-svg">
         </section>
         <section class="sub">
             <div class="container">
@@ -106,9 +102,9 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
          <!--Job-->
-        <!-- <section class="working">
+        <section class="working">
             <div class="container">
                 <h2 class="section-title-1">Чим ми займаємося</h2> 
                 <ul class="work-list">
@@ -128,12 +124,17 @@
             </div>
         </section>
         <!--Team-->
-        <!-- <section class="Team">
+        <section class="Team">
             <div class="container">
                 <h2 class="section-title-2">Наша команда</h2> 
                 <ul class="job-list">
                     <li class="jobs">
+                      <picture>
+                        <source srcset="./images/team-1-desktop.jpg" media="(min-width: 1200px)"/>
+                        <source srcset="./images/team-1-tablet.jpg" media="(min-width: 768px)"/>
+                        <source srcset="./images/team-1-mobile.jpg" media="(max-width: 767px)"/>
                         <img class="pic-team-1" src="./images/team-1.jpg" alt="user-photo" class="jpg" width="270" height="260">
+                      </picture>
                         <div class="name">
                             <h3 class="team-name-1 teams">Ігор Дем'яненко</h3>
                             <p class="job-name-1 names">Product Designer</p>
@@ -169,7 +170,12 @@
                               </ul>
                     </li>
                     <li class="jobs">
+                      <picture>
+                        <source srcset="./images/team-2-desktop.jpg" media="(min-width: 1200px)"/>
+                        <source srcset="./images/team-2-tablet.jpg" media="(min-width: 768px)"/>
+                        <source srcset="./images/team-2-mobile.jpg" media="(max-width: 767px)"/>
                         <img class="pic-team-2" src="./images/team-2.jpg" alt="user-photo" class="jpg" width="270" height="260">
+                      </picture>
                         <div class="name">
                             <h3 class="team-name-2 teams">Ольга Рєпіна</h3> 
                             <p class="job-name-2 names">Frontend Developer</p>
@@ -206,7 +212,12 @@
                         </div>
                     </li>
                     <li class="jobs">
+                      <picture>
+                        <source srcset="./images/team-3-desktop.jpg" media="(min-width: 1200px)"/>
+                        <source srcset="./images/team-3-tablet.jpg" media="(min-width: 768px)"/>
+                        <source srcset="./images/team-3-mobile.jpg" media="(max-width: 767px)"/>
                         <img class="pic-team-3" src="./images/team-3.jpg" alt="user-photo" class="jpg" width="270" height="260">
+                      </picture>
                         <div class="name">
                             <h3 class="team-name-3 teams">Микола Тарасов</h3> 
                             <p class="job-name-3 names">Marketing</p>
@@ -243,7 +254,12 @@
                         </div>
                     </li>
                     <li class="jobs">
+                      <picture>
+                        <source srcset="./images/team-4-desktop.jpg" media="(min-width: 1200px)"/>
+                        <source srcset="./images/team-4-tablet.jpg" media="(min-width: 768px)"/>
+                        <source srcset="./images/team-4-mobile.jpg" media="(max-width: 767px)"/>
                         <img class="pic-team-4" src="./images/team-4.jpg" alt="user-photo" class="jpg" width="270" height="260">
+                      </picture>
                         <div class="name">
                             <h3 class="team-name-4 teams">Михайло Єрмаков</h3> 
                             <p class="job-name-4 names">UI Designer</p>
@@ -281,9 +297,9 @@
                     </li>
                 </ul>        
             </div>
-         </section> -->
+         </section>
          <!--=====CLients=====-->
-         <!-- <section class="clients">
+         <section class="clients">
             <div class="container">
               <h2 class="clients-title">Постійні клієнти</h2>
             <ul class="client-box">
@@ -333,7 +349,7 @@
          </section>
     </main> -->
         <!--Adress-->
-        <!-- <footer class="info">
+        <footer class="info">
             <div class="container">
               <div>
                 <a class="web-link" class="logo link" href="/index.html">Web<span class="footer-logo">Studio</span></a>

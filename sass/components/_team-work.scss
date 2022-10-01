@@ -13,6 +13,23 @@
     background: url(4853);
     border-radius: 0px;
 }
+@media (min-width: 0px) and (max-width: 767px) {
+    .pic-team-1 {
+        background-image: url(../images/team-1-mobile.jpg);
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .pic-team-1 {
+        background-image: url(../images/team-1-tablet.jpg);
+    }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .pic-team-1 {
+        background-image: url(../images/team-1-desktop.jpg);
+    }
+}
+
+
 .pic-team-2 {
  
     background: url(5844);
